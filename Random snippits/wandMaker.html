@@ -1,0 +1,791 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<div id = "selectors">
+<select class="wandMaker" id="selectWood">
+    <option value= "">Wood</option>
+    <option value="A very unusual wand wood, which I have found creates tricky wands that
+    often refuse to produce magic for any but their owner, and also withhold
+    their best effects from all but those most gifted. This sensitivity
+    renders them difficult to place, and I keep only a small stock for those
+    witches or wizards of sufficient subtlety, for acacia is not suited to
+    what is commonly known as ‘bangs-and-smells’ magic. When well-matched,
+    an acacia wand matches any for power, though it is often underrated due
+    to the peculiarity of its temperament. ">Acacia</option></p>
+<option value="Alder is an unyielding wood, yet I have discovered that its ideal owner
+    is not stubborn or obstinate, but often helpful, considerate and most
+    likeable. Whereas most wand woods seek similarity in the characters of
+    those they will best serve, alder is unusual in that it seems to desire
+    a nature that is, if not precisely opposite to its own, then certainly
+    of a markedly different type. When an alder wand is happily placed, it
+    becomes a magnificent, loyal helpmate. Of all wand types, alder is best
+    suited to non-verbal spell work, whence comes its reputation for being
+    suitable only for the most advanced witches and wizards. ">Alder</option></p>
+<option value="Applewood wands are not made in great numbers. They are powerful and best
+    suited to an owner of high aims and ideals, as this wood mixes poorly
+    with Dark magic. It is said that the possessor of an apple wand will be
+    well-loved and long-lived, and I have often noticed that customers of
+    great personal charm find their perfect match in an applewood wand. An
+    unusual ability to converse with other magical beings in their native
+    tongues is often found among apple wand owners, who include the
+    celebrated author of <em>Merpeople: A Comprehensive Guide to Their
+        Language and Customs</em>, Dylan Marwood. ">Apple</option></p>
+<option value="The ash wand cleaves to its one true master and ought not to be passed on
+    or gifted from the original owner, because it will lose power and skill.
+    This tendency is extreme if the core is of unicorn. Old superstitions
+    regarding wands rarely bear close examination, but I find that the old
+    rhyme regarding rowan, chestnut, ash and hazel wands (rowan gossips,
+    chestnut drones, ash is stubborn, hazel moans) contains a small nugget
+    of truth. Those witches and wizards best suited to ash wands are not, in
+    my experience, lightly swayed from their beliefs or purposes. However,
+    the brash or over-confident witch or wizard, who often insists on trying
+    wands of this prestigious wood, will be disappointed by its effects. The
+    ideal owner may be stubborn, and will certainly be courageous, but never
+    crass or arrogant. ">Ash</option></p>
+<option value="Wand-quality aspen wood is white and fine-grained, and highly prized by
+    all wand-makers for its stylish resemblance to ivory and its usually
+    outstanding charmwork. The proper owner of the aspen wand is often an
+    accomplished duellist, or destined to be so, for the aspen wand is one
+    of those particularly suited to martial magic. An infamous and secretive
+    eighteenth-century duelling club, which called itself The Silver Spears,
+    was reputed to admit only those who owned aspen wands. In my experience,
+    aspen wand owners are generally strong-minded and determined, more
+    likely than most to be attracted by quests and new orders; this is a
+    wand for revolutionaries. ">Aspen</option></p>
+<option value="The true match for a beech wand will be, if young, wise beyond his or her
+    years, and if full-grown, rich in understanding and experience. Beech
+    wands perform very weakly for the narrow-minded and intolerant. Such
+    wizards and witches, having obtained a beech wand without having been
+    suitably matched (yet coveting this most desirable, richly hued and
+    highly prized wand wood), have often presented themselves at the homes
+    of learned wandmakers such as myself, demanding to know the reason for
+    their handsome wand’s lack of power. When properly matched, the beech
+    wand is capable of a subtlety and artistry rarely seen in any other
+    wood, hence its lustrous reputation. ">Beech</option></p>
+<option value="Blackthorn, which is a very unusual wand wood, has the reputation, in my
+    view well-merited, of being best suited to a warrior. This does not
+    necessarily mean that its owner practises the Dark Arts (although it is
+    undeniable that those who do so will enjoy the blackthorn wand’s
+    prodigious power); one finds blackthorn wands among the Aurors as well
+    as among the denizens of Azkaban. It is a curious feature of the
+    blackthorn bush, which sports wicked thorns, that it produces its
+    sweetest berries after the hardest frosts, and the wands made from this
+    wood appear to need to pass through danger or hardship with their owners
+    to become truly bonded. Given this condition, the blackthorn wand will
+    become as loyal and faithful a servant as one could wish. ">Blackthorn</option></p>
+<option value="Less common than the standard walnut wand, that of black walnut seeks a
+    master of good instincts and powerful insight. Black walnut is a very
+    handsome wood, but not the easiest to master. It has one pronounced
+    quirk, which is that it is abnormally attuned to inner conflict, and
+    loses power dramatically if its possessor practises any form of
+    self-deception. If the witch or wizard is unable or unwilling to be
+    honest with themselves or others, the wand often fails to perform
+    adequately and must be matched with a new owner if it is to regain its
+    former prowess. Paired with a sincere, self-aware owner, however, it
+    becomes one of the most loyal and impressive wands of all, with a
+    particular flair in all kinds of charmwork. ">Black</option></p>
+<option value="Whenever I meet one who carries a cedar wand, I find strength of
+    character and unusual loyalty. My father, Gervaise Ollivander, used
+    always to say, ‘you will never fool the cedar carrier,’ and I agree: the
+    cedar wand finds its perfect home where there is perspicacity and
+    perception. I would go further than my father, however, in saying that I
+    have never yet met the owner of a cedar wand whom I would care to cross,
+    especially if harm is done to those of whom they are fond. The witch or
+    wizard who is well-matched with cedar carries the potential to be a
+    frightening adversary, which often comes as a shock to those who have
+    thoughtlessly challenged them. ">Cedar</option></p>
+<option value="This very rare wand wood creates a wand of strange power, most highly
+    prized by the wizarding students of the school of Mahoutokoro in Japan,
+    where those who own cherry wands have special prestige. The Western
+    wand-purchaser should dispel from their minds any notion that the pink
+    blossom of the living tree makes for a frivolous or merely ornamental
+    wand, for cherry wood often makes a wand that possesses truly lethal
+    power, whatever the core, but if teamed with dragon heartstring, the
+    wand ought never to be teamed with a wizard without exceptional
+    self-control and strength of mind. ">Cherry</option></p>
+<option value="This is a most curious, multi-faceted wood, which varies greatly in its
+    character depending on the wand core, and takes a great deal of colour
+    from the personality that possesses it. The wand of chestnut is
+    attracted to witches and wizards who are skilled tamers of magical
+    beasts, those who possess great gifts in Herbology, and those who are
+    natural fliers. However, when paired with dragon heartstring, it may
+    find its best match among those who are overfond of luxury and material
+    things, and less scrupulous than they should be about how they are
+    obtained. Conversely, three successive heads of the Wizengamot have
+    possessed chestnut and unicorn wands, for this combination shows a
+    predilection for those concerned with all manner of justice. ">Chestnut</option></p>
+<option value="Cypress wands are associated with nobility. The great medieval wandmaker,
+    Geraint Ollivander, wrote that he was always honoured to match a cypress
+    wand, for he knew he was meeting a witch or wizard who would die a
+    heroic death. Fortunately, in these less blood-thirsty times, the
+    possessors of cypress wands are rarely called upon to lay down their
+    lives, though doubtless many of them would do so if required. Wands of
+    cypress find their soul mates among the brave, the bold and the
+    self-sacrificing: those who are unafraid to confront the shadows in
+    their own and others’ natures. ">Cypress</option></p>
+<option value="Dogwood is one of my own personal favourites, and I have found that
+    matching a dogwood wand with its ideal owner is always entertaining.
+    Dogwood wands are quirky and mischievous; they have playful natures and
+    insist upon partners who can provide them with scope for excitement and
+    fun. It would be quite wrong, however, to deduce from this that dogwood
+    wands are not capable of serious magic when called upon to do so; they
+    have been known to perform outstanding spells under difficult
+    conditions, and when paired with a suitably clever and ingenious witch
+    or wizard, can produce dazzling enchantments. An interesting foible of
+    many dogwood wands is that they refuse to perform non-verbal spells and
+    they are often rather noisy. ">Dogwood</option></p>
+<option value="This jet-black wand wood has an impressive appearance and reputation,
+    being highly suited to all manner of combative magic, and to
+    Transfiguration. Ebony is happiest in the hand of those with the courage
+    to be themselves. Frequently non-conformist, highly individual or
+    comfortable with the status of outsider, ebony wand owners have been
+    found both among the ranks of the Order of the Phoenix and among the
+    Death Eaters. In my experience the ebony wand’s perfect match is one who
+    will hold fast to his or her beliefs, no matter what the external
+    pressure, and will not be swayed lightly from their purpose. ">Ebony</option></p>
+<option value="The rarest wand wood of all, and reputed to be deeply unlucky, the elder
+    wand is trickier to master than any other. It contains powerful magic,
+    but scorns to remain with any owner who is not the superior of his or
+    her company; it takes a remarkable wizard to keep the elder wand for any
+    length of time. The old superstition, ‘wand of elder, never prosper,’
+    has its basis in this fear of the wand, but in fact, the superstition is
+    baseless, and those foolish wandmakers who refuse to work with elder do
+    so more because they doubt they will be able to sell their products than
+    from fear of working with this wood. The truth is that only a highly
+    unusual person will find their perfect match in elder, and on the rare
+    occasion when such a pairing occurs, I take it as certain that the witch
+    or wizard in question is marked out for a special destiny. An additional
+    fact that I have unearthed during my long years of study is that the
+    owners of elder wands almost always feel a powerful affinity with those
+    chosen by rowan. ">Elder</option></p>
+<option value="The unfounded belief that only pure-bloods can produce magic from elm
+    wands was undoubtedly started by some elm wand owner seeking to prove
+    his own blood credentials, for I have known perfect matches of elm wands
+    who are Muggle-borns. The truth is that elm wands prefer owners with
+    presence, magical dexterity and a certain native dignity. Of all wand
+    woods, elm, in my experience, produces the fewest accidents, the least
+    foolish errors, and the most elegant charms and spells; these are
+    sophisticated wands, capable of highly advanced magic in the right hands
+    (which, again, makes it highly desirable to those who espouse the
+    pure-blood philosophy). ">Elm</option></p>
+<option value="A wand for good times and bad, this is a friend as loyal as the wizard
+    who deserves it. Wands of English oak demand partners of strength,
+    courage and fidelity. Less well-known is the propensity for owners of
+    English oak wands to have powerful intuition, and, often, an affinity
+    with the magic of the natural world, with the creatures and plants that
+    are necessary to wizardkind for both magic and pleasure. The oak tree is
+    called King of the Forest from the winter solstice up until the summer
+    solstice, and its wood should only be collected during that time (holly
+    becomes King as the days begin to shorten again, and so holly should
+    only be gathered as the year wanes. This divide is believed to be the
+    origin of the old superstition, ‘When his wand’s oak and hers is holly,
+    then to marry would be folly,’ a superstition that I have found
+    baseless). It is said that Merlin’s wand was of English oak (though his
+    grave has never been found, so this cannot be proven). ">English</option></p>
+<option value="My august grandfather, Gerbold Octavius Ollivander, always called wands
+    of this wood ‘the survivor’s wand’, because he had sold it to three
+    wizards who subsequently passed through mortal peril unscathed. There is
+    no doubt that this wood, coming as it does from the most resilient of
+    trees, produces wands that demand staying power and strength of purpose
+    in their true owners, and that they are poor tools in the hands of the
+    changeable and indecisive. Fir wands are particularly suited to
+    Transfiguration, and favour owners of focused, strong-minded and,
+    occasionally, intimidating demeanour. ">Fir</option></p>
+<option value="The wandmaker Gregorovitch wrote that hawthorn ‘makes a strange,
+    contradictory wand, as full of paradoxes as the tree that gave it birth,
+    whose leaves and blossoms heal, and yet whose cut branches smell of
+    death.’ While I disagree with many of Gregorovitch’s conclusions, we
+    concur about hawthorn wands, which are complex and intriguing in their
+    natures, just like the owners who best suit them. Hawthorn wands may be
+    particularly suited to healing magic, but they are also adept at curses,
+    and I have generally observed that the hawthorn wand seems most at home
+    with a conflicted nature, or with a witch or wizard passing through a
+    period of turmoil. Hawthorn is not easy to master, however, and I would
+    only ever consider placing a hawthorn wand in the hands of a witch or
+    wizard of proven talent, or the consequences might be dangerous.
+    Hawthorn wands have a notable peculiarity: their spells can, when badly
+    handled, backfire. ">Hawthorn</option></p>
+<option value="A sensitive wand, hazel often reflects its owner’s emotional state, and
+    works best for a master who understands and can manage their own
+    feelings. Others should be very careful handling a hazel wand if its
+    owner has recently lost their temper, or suffered a serious
+    disappointment, because the wand will absorb such energy and discharge
+    it unpredictably. The positive aspect of a hazel wand more than makes up
+    for such minor discomforts, however, for it is capable of outstanding
+    magic in the hands of the skillful, and is so devoted to its owner that
+    it often ‘wilts’ (which is to say, it expels all its magic and refuses
+    to perform, often necessitating the extraction of the core and its
+    insertion into another casing, if the wand is still required) at the end
+    of its master’s life (if the core is unicorn hair, however, there is no
+    hope; the wand will almost certainly have ‘died’). Hazel wands also have
+    the unique ability to detect water underground, and will emit silvery,
+    tear-shaped puffs of smoke if passing over concealed springs and wells.
+ ">Hazel</option></p>
+<option value="Holly is one of the rarer kinds of wand woods; traditionally considered
+    protective, it works most happily for those who may need help overcoming
+    a tendency to anger and impetuosity. At the same time, holly wands often
+    choose owners who are engaged in some dangerous and often spiritual
+    quest. Holly is one of those woods that varies most dramatically in
+    performance depending on the wand core, and it is a notoriously
+    difficult wood to team with phoenix feather, as the wood’s volatility
+    conflicts strangely with the phoenix’s detachment. In the unusual event
+    of such a pairing finding its ideal match, however, nothing and nobody
+    should stand in their way. ">Holly</option></p>
+<option value="My own wand is made of hornbeam, and so it is with all due modesty that I
+    state that hornbeam selects for its life mate the talented witch or
+    wizard with a single, pure passion, which some might call obsession
+    (though I prefer the term ‘vision’), which will almost always be
+    realised. Hornbeam wands adapt more quickly than almost any other to
+    their owner’s style of magic, and will become so personalised, so
+    quickly, that other people will find them extremely difficult to use
+    even for the most simple of spells. Hornbeam wands likewise absorb their
+    owner’s code of honour, whatever that might be, and will refuse to
+    perform acts – whether for good or ill – that do not tally with their
+    master’s principles. A particularly fine-tuned and sentient wand. ">Hornbeam</option></p>
+<option value="Strong, durable and warm in colour, larch has long been valued as an
+    attractive and powerful wand wood. Its reputation for instilling courage
+    and confidence in the user has ensured that demand has always
+    outstripped supply. This much sought-after wand is, however, hard to
+    please in the matter of ideal owners, and trickier to handle than many
+    imagine. I find that it always creates wands of hidden talents and
+    unexpected effects, which likewise describes the master who deserves it.
+    It is often the case that the witch or wizard who belongs to the larch
+    wand may never realise the full extent of their considerable talents
+    until paired with it, but that they will then make an exceptional match.
+ ">Larch</option></p>
+<option value="It is said that a laurel wand cannot perform a dishonourable act,
+    although in the quest for glory (a not uncommon goal for those best
+    suited to these wands), I have known laurel wands perform powerful and
+    sometimes lethal magic. Laurel wands are sometimes called fickle, but
+    this is unfair. The laurel wand seems unable to tolerate laziness in a
+    possessor, and it is in such conditions that it is most easily and
+    willingly won away. Otherwise, it will cleave happily to its first match
+    forever, and indeed has the unusual and engaging attribute of issuing a
+    spontaneous lightning strike if another witch or wizard attempts to
+    steal it. ">Laurel</option></p>
+<option value="I have often found that those chosen by maple wands are by nature
+    travellers and explorers; they are not stay-at-home wands, and prefer
+    ambition in their witch or wizard, otherwise their magic grows heavy and
+    lacklustre. Fresh challenges and regular changes of scene cause this
+    wand to literally shine, burnishing itself as it grows, with its
+    partner, in ability and status. This is a beautiful and desirable wood,
+    and wand quality maple has been among the most costly for centuries.
+    Possession of a maple wand has long been a mark of status, because of
+    its reputation as the wand of high achievers. ">Maple</option></p>
+<option value="This golden-toned wood produces wands of splendid magical powers, which
+    give of their best in the hands of the warm-hearted, the generous and
+    the wise. Possessors of pear wands are, in my experience, usually
+    popular and well-respected. I do not know of a single instance where a
+    pear wand has been discovered in the possession of a Dark witch or
+    wizard. Pear wands are among the most resilient, and I have often
+    observed that they may still present a remarkable appearance of newness,
+    even after many years of hard use. ">Pear</option></p>
+<option value="The straight-grained pine wand always chooses an independent, individual
+    master who may be perceived as a loner, intriguing and perhaps
+    mysterious. Pine wands enjoy being used creatively, and unlike some
+    others, will adapt unprotestingly to new methods and spells. Many
+    wandmakers insist that pine wands are able to detect, and perform best
+    for, owners who are destined for long lives, and I can confirm this in
+    as much as I have never personally known the master of a pine wand to
+    die young. The pine wand is one of those that is most sensitive to
+    non-verbal magic. ">Pine</option></p>
+<option value="‘If you seek integrity, search first among the poplars,’ was a great
+    maxim of my grandfather, Gerbold Ollivander, and my own experience of
+    poplar wands and their owners tallies exactly with his. Here is a wand
+    to rely upon, of consistency, strength and uniform power, always
+    happiest when working with a witch or wizard of clear moral vision.
+    There is a tired old joke among lesser wandmakers that no poplar wand
+    has ever chosen a politician, but here they show their lamentable
+    ignorance: two of the Ministry’s most accomplished Ministers for Magic,
+    Eldritch Diggory and Evangeline Orpington, were the possessors of fine,
+    Ollivander-made poplar wands. ">Poplar</option></p>
+<option value="You will often hear the ignorant say that red oak is an infallible sign
+    of its owner’s hot temper. In fact, the true match for a red oak wand is
+    possessed of unusually fast reactions, making it a perfect duelling
+    wand. Less common than English oak, I have found that its ideal master
+    is light of touch, quick-witted and adaptable, often the creator of
+    distinctive, trademark spells, and a good man or woman to have beside
+    one in a fight. Red oak wands are, in my opinion, among the most
+    handsome. ">Red</option></p>
+<option value="Wand-quality redwood is in short supply, yet constant demand, due to its
+    reputation for bringing good fortune to its owner. As is usually the
+    case with wandlore, the general populace have the truth back to front:
+    redwood wands are not themselves lucky, but are strongly attracted to
+    witches and wizards who already possess the admirable ability to fall on
+    their feet, to make the right choice, to snatch advantage from
+    catastrophe. The combination of such a witch or wizard with a redwood
+    wand is always intriguing, and I generally expect to hear of exciting
+    exploits when I send this special pairing out from my workshop. ">Redwood</option></p>
+<option value="Rowan wood has always been much-favoured for wands, because it is reputed
+    to be more protective than any other, and in my experience renders all
+    manner of defensive charms especially strong and difficult to break. It
+    is commonly stated that no dark witch or wizard ever owned a rowan wand,
+    and I cannot recall a single instance where one of my own rowan wands
+    has gone on to do evil in the world. Rowan is most happily placed with
+    the clear-headed and the pure-hearted, but this reputation for virtue
+    ought not to fool anyone – these wands are the equal of any, often the
+    better, and frequently out-perform others in duels. ">Rowan</option></p>
+<option value="This unusual and highly attractive wand wood was greatly in vogue in the
+    nineteenth century. Demand outstripped supply, and unscrupulous
+    wandmakers dyed substandard woods in an effort to fool purchasers into
+    believing that they had purchased silver lime. The reasons for these
+    wands’ desirability lay not only in their unusually handsome appearance,
+    but also because they had a reputation for performing best for Seers and
+    those skilled in Legilimency, mysterious arts both, which consequently
+    gave the possessor of a silver lime wand considerable status. When
+    demand was at its height, wandmaker Arturo Cephalopos claimed that the
+    association between silver lime and clairvoyance was ‘a falsehood
+    circulated by merchants like Gerbold Ollivander (my own grandfather),
+    who have overstocked their workshops with silver lime and hope to shift
+    their surplus’. But Cephalopos was a slipshod wandmaker and an
+    ignoramus, and nobody, Seer or not, was surprised when he went out of
+    business. ">Silver</option></p>
+<option value="Unskilled wandmakers call spruce a difficult wood, but in doing so they
+    reveal their own ineptitude. It is quite true that it requires
+    particular deftness to work with spruce, which produces wands that are
+    ill-matched with cautious or nervous natures, and become positively
+    dangerous in fumbling fingers. The spruce wand requires a firm hand,
+    because it often appears to have its own ideas about what magic it ought
+    to be called upon to produce. However, when a spruce wand meets its
+    match – which, in my experience, is a bold spell-caster with a good
+    sense of humour – it becomes a superb helper, intensely loyal to their
+    owners and capable of producing particularly flamboyant and dramatic
+    effects. ">Spruce</option></p>
+<option value="The sycamore makes a questing wand, eager for new experience and losing
+    brilliance if engaged in mundane activities. It is a quirk of these
+    handsome wands that they may combust if allowed to become ‘bored’, and
+    many witches and wizards, settling down into middle age, are
+    disconcerted to find their trusty wand bursting into flame in their hand
+    as they ask it, one more time, to fetch their slippers. As may be
+    deduced, the sycamore’s ideal owner is curious, vital and adventurous,
+    and when paired with such an owner, it demonstrates a capacity to learn
+    and adapt that earns it a rightful place among the world’s most
+    highly-prized wand woods. ">Sycamore</option></p>
+<option value="The druids considered anything with a woody stem as a tree, and vine
+    makes wands of such a special nature that I have been happy to continue
+    their ancient tradition. Vine wands are among the less common types, and
+    I have been intrigued to notice that their owners are nearly always
+    those witches or wizards who seek a greater purpose, who have a vision
+    beyond the ordinary and who frequently astound those who think they know
+    them best. Vine wands seem strongly attracted by personalities with
+    hidden depths, and I have found them more sensitive than any other when
+    it comes to instantly detecting a prospective match. Reliable sources
+    claim that these wands can emit magical effects upon the mere entrance
+    into their room of a suitable owner, and I have twice observed the
+    phenomenon in my own shop. ">Vine</option></p>
+<option value="Highly intelligent witches and wizards ought to be offered a walnut wand
+    for trial first, because in nine cases out of ten, the two will find in
+    each other their ideal mate. Walnut wands are often found in the hands
+    of magical innovators and inventors; this is a handsome wood possessed
+    of unusual versatility and adaptability. A note of caution, however:
+    while some woods are difficult to dominate, and may resist the
+    performance of spells that are foreign to their natures, the walnut wand
+    will, once subjugated, perform any task its owner desires, provided that
+    the user is of sufficient brilliance. This makes for a truly lethal
+    weapon in the hands of a witch or wizard of no conscience, for the wand
+    and the wizard may feed from each other in a particularly unhealthy
+    manner. ">Walnut</option></p>
+<option value="Willow is an uncommon wand wood with healing power, and I have noted that
+    the ideal owner for a willow wand often has some (usually unwarranted)
+    insecurity, however well they may try and hide it. While many confident
+    customers insist on trying a willow wand (attracted by their handsome
+    appearance and well-founded reputation for enabling advanced, non-verbal
+    magic) my willow wands have consistently selected those of greatest
+    potential, rather than those who feel they have little to learn. It has
+    always been a proverb in my family that he who has furthest to travel
+    will go fastest with willow. ">Willow</option></p>
+<option value="Yew wands are among the rarer kinds, and their ideal matches are likewise
+    unusual, and occasionally notorious. The wand of yew is reputed to endow
+    its possessor with the power of life and death, which might, of course,
+    be said of all wands; and yet yew retains a particularly dark and
+    fearsome reputation in the spheres of duelling and all curses. However,
+    it is untrue to say (as those unlearned in wandlore often do) that those
+    who use yew wands are more likely to be attracted to the Dark Arts than
+    another. The witch or wizard best suited to a yew wand might equally
+    prove a fierce protector of others. Wands hewn from these most
+    long-lived trees have been found in the possession of heroes quite as
+    often as of villains. Where wizards have been buried with wands of yew,
+    the wand generally sprouts into a tree guarding the dead owner’s grave.
+    What is certain, in my experience, is that the yew wand never chooses
+    either a mediocre or a timid owner. ">Yew</option></p>
+  </select>
+  
+  <select class="wandMaker" id="selectCore">
+    <option value= "">Core</option>
+    <option value=" Unicorn hair generally produces the most consistent magic, and is least subject to fluctuations and blockages.
+    Wands with unicorn cores are generally the most difficult to turn to the Dark Arts. They are the most faithful
+    of all wands, and usually remain strongly attached to their first owner, irrespective of whether he or she was
+    an accomplished witch or wizard. Minor disadvantages of unicorn hair are that they do not make the most powerful
+    wands (although the wand wood may compensate) and that they are prone to melancholy if seriously mishandled,
+    meaning that the hair may 'die' and need replacing.">Unicorn Tail Hair</option>
+<option value=" As a rule, dragon heartstrings produce wands with the most power, and which are capable of the most flamboyant
+    spells. Dragon wands tend to learn more quickly than other types. While they can change allegiance if won from
+    their original master, they always bond strongly with the current owner. The dragon wand tends to be easiest to
+    turn to the Dark Arts, though it will not incline that way of its own accord. It is also the most prone of the
+    three cores to accidents, being somewhat temperamental.">Dragon Heartstring</option>
+<option
+    value=" The frugal counterpart to dragon heartstring, Dragon Tear cores lead to a wand that weeps crimson liquid at random. It too has a tendency to become rather melancholy resulting in half-hearted spells and thus it is highly advised the owner maintains a sunny disposition to help counteract the wand’s mood.">
+    Dragon Tear</option>
+<option value=" This is the rarest core type. Phoenix feathers are capable of the greatest range of magic, though they may take
+    longer than either unicorn or dragon cores to reveal this. They show the most initiative, sometimes acting of
+    their own accord, a quality that many witches and wizards dislike. Phoenix feather wands are always the pickiest
+    when it comes to potential owners, for the creature from which they
+    are taken is one of the most independent and detached in the world. These wands are the hardest to tame and to
+    personalise, and their allegiance is usually hard won.">Phoenix Feather</option>
+<option value=" If you're thinking about having a wand made with Acromantula web, you're probably a fan of having your wand
+    confiscated by the authorities. Using a wand with this core has been illegal in Britain since 1782, after it was
+    discovered that the wielder of an Acromantula web wand has particular ability with Dark magics, especially the
+    Imperius curse. There are certain diplomatic exceptions, as it is a traditional core for Asian wands, but even
+    those are temporary, and many wizard diplomats on long-term assignments find themselves compelled to procure
+    replacement wands for their stay.">Acromantula Web</option>
+<option value=" Augureys, or Irish phoenixes, were once associated with powerful Dark wands, as their cries were thought to
+    signify an upcoming death. However, they were in reality never a strong Dark core, and were more accurately a
+    powerful core for Divinations. Misunderstood students may find themselves bonded to an augurey wand, although
+    these wands are altogether quite rare.">Augurey Tail Feather</option>
+<option value=" Basilisk wands are incredibly rare, as the beasts are rare to begin with and hard to kill. Due to the rarity,
+    they often are passed down from generation to generation, so basilisk-core wands are either the heirloom of
+    Slytherin-type Pureblood families or reforged wands from family cores. The occasional new basilisk wand will
+    almost always bond to a Parselmouth or budding Dark Wizard. Very little good comes out of wielders of basilisk
+    wands.">Basilisk Skin</option>
+<option value=" Billywig stingers are not common in Britain, but are occasionally imported from Australia, the native habitat of
+    the Billywig. Billywig wands bond almost exclusively to light-hearted pranksters, and are extremely capricious-
+    at one moment it will produce the strongest Cheering Charm in the school, but another time it will object to
+    being used as a potion stirrer and siphon up hours of work without so much as a by-your-leave. When they do bond
+    to a witch or wizard, they tend to be of Hufflepuff or Gryffindor.">Billywig Stinger</option>
+<option value=" Boomslang venom, whether crystallized or in a rarer liquid core, provides a small boost to jinxes and hexes
+    thanks to its venomous qualities. However, when a wandmaker undertakes the dangerous task of working with the
+    raw venom, it is generally with the aim of creating a powerful Transfiguration wand. Whether or not the
+    advantages outweigh the risks is not generally agreed upon in wandmaking circles.">Boomslang Venom</option>
+<option value=" Although chimera scales are magically powerful, they are extremely rare in modern wandcraft. This is not out of
+    any concern for safety, as they are generally considered no more stubborn than hippogriff feathers, and are more
+    stable than Erumpent hide. The fact of the matter is that there are more recorded basilisk slayings in the past
+    fifty years than there are chimera slayings in all of recorded history. This one slaying occurred in Greece over
+    two millenia ago, so what scales were harvested at that time have been degraded, broken, and dispersed. Today, they
+    are only found as parts of heirloom cores, and even then, all such cores are a more common core (often dragon
+    heartstring) with a tiny fragment of scale embedded. Chimera wands are most common in Greece and
+    the Balkans, although as they were circulated through the Mediterranean and former Roman Empire they are found
+    throughout Europe. These wands are prized for their raw power, although they are difficult to control.">Chimera
+    Scale Fragment</option>
+<option value=" Demiguise hairs were long considered to not have enough oomph to make a proper wand, but with the advent of
+    multiple cores they have gained favor for their strength in Transfiguration and the subtle arts. When combined
+    with a stronger wand core they make potent wands, however, on their own they can be rather one-dimensional and
+    difficult to use for anything but Transfiguration. They have found favor in students of all Houses, although
+    they may be slightly rarer among the open Hufflepuffs.">Demiguise Hair</option>
+<option value=" Doxy wings, like the creatures they come from, can be unmanageable and mean-spirited. They are second only to
+    basilisk wands in their abilities with the Dark Arts, and as such these rare wands are most often found in the
+    hands of stubborn Slytherins without the familial connection to obtain a basilisk core.">Doxy Wing</option>
+<option value=" There is a very good reason this is an exotic- Erumpent hide wands are extremely dangerous, and don't take well
+    to high levels of magic or sharp impacts. They may add a 'punch' to spells when combined with a gentler core,
+    but most wandmakers refuse to work with it completely due to the danger it poses to maker and wielder.">Erumpent
+    Hide</option>
+<option value=" This core makes for a light, airy wand, and is the absolute best for Charms. They also signify a connection to
+    the mystic, so these wands, despite their relative rarity, are used by nearly half of known witches and wizards
+    with the Sight. Despite their astounding strength in Charms, they are merely average in Defense Against the Dark
+    Arts and Transfiguration, and will often fail at hexes altogether. As such, they’re not commonly found in
+    Slytherin House, but are common in Hufflepuff. Ravenclaws and Gryffindors may be drawn to this core, although
+    they tend to react better to blends of fairy wings and unicorn hair.">Fairy Wing</option>
+<option value=" Fwooper feather wands are said to be a mark of ill omen for the wizards they bond to, as, like the birds they
+    come from, they are rumored to slowly drive their wielder mad. Despite their poor reputation, they do well with
+    Charms and Care of Magical Creatures. However, they have a near-inability to cast Quietus. They are commonly
+    combined with another feather core, such as the phoenix for health or the hippogriff for stability.">Fwooper
+    Feather</option>
+<option value=" Hippogriffs are noble animals with a reputation for not taking a slight. These wands require constant respect,
+    and if the wielder does not give it, they can watch its formerly stable and versatile magic backfire on it. It
+    is not the strongest core, but it is one of the most adaptable. These wands are most common amongst Gryffindors,
+    but they are rare overall.">Hippogriff Feather</option>
+<option value=" The antler of a Jackalope is a wand core used by Ilvermorny founders James Steward and Isolt Sayre in the 17th
+    century when they begun making their own wands.">Jackalope Antler</option>
+<option value=" Kelpie hairs are incredibly tempermental cores, explaining their rarity. They were once common in Celtic
+    wandmaking, however, the import of demiguise hairs has resulted in them falling out of favor. They have similar
+    qualities to demiguise hair, and are powerful Transfiguration cores when they don't backfire spectacularly.">Kelpie
+    Hair</option>
+<option value=" The hair of the rougarou was used as a wand core by the American wandmaker Violetta Beauvais. Beauvais kept the
+    fact that she used this particular wand core a secret for many years, but it was eventually revealed. Rougarou
+    hair was believed to have an affinity for Dark magic, like vampires to blood.">Rougarou Hair</option>
+<option value=" The tail feather of the Thunderbird was used as a wand core by the American wandmaker Shikoba Wolfe. Wolfe's
+    wands were powerful but difficult to master, and were good for transfiguration work. Wands with Thunderbird tail
+    feather cores, like the birds the feathers are taken from, are able to sense danger and can cast curses on their
+    own.">Thunderbird Feather</option>
+<option value=" Veela wands are temperamental like the creatures they come from, and are considered too volatile for a decent
+    wand core in many circles. However, some wizards, particularly those with Veela blood, enjoy the boost it gives
+    to outdoorsy magics, divinations, and Charms. The veela’s inherent intelligence makes finding these wands among
+    the non-Veela blooded most common in Ravenclaw.">Veela Hair</option>
+<option value=" Thestral wands generally produce strong magic but only when the wielder understands themselves. If the wielder
+    does not know themselves or loses themselves than their spells will suffer. When the wielder knows themselves
+    than this wand can create very strong spells. The thestral wands work very well for Charms, Defense Against the
+    Dark Arts, and Transfiguration. The Thestral wands are very tempermental and rare to find with Wizards and
+    Witches of today. The most common thestral hair wands are found with Ravenclaws and very rarely with
+    Hufflepuffs.">Thestral Tail Hair</option>
+<option value=" Vampire fang wands like the Chimera Fragment wands are very rare and mostly heirloom wands. A vampire fang core
+    is mostly handed down from previous owners of such wands. Vampire fangs are a very versatile wand core and can
+    be either Dark or Light. The vampire fang has no certain divinity and will choose what it’s owner chooses as it
+    is a very loyal bond. This core works well with Charms, and Divinations. Often this wand is exceptional for
+    potion stirring.">Vampire Fang</option>
+<option value=" The hair of the Wampus cat was used as a wand core by the American wandmaker Johannes Jonker. Jonker experimented
+    with many other cores before settling on the hair of this creature as his preferred kind. The core was also used
+    by Isolt Sayre and James Steward when they begun making their own wands in the 17th century.">Wampus Hair</option>
+<option value=" There are several different cores that can come from a werewolf which include whiskers, hair, saliva, and nails.
+    All of these from a werewolf have their own virtues however they all make for an exceptional wand. Werewolf
+    cores ally themselves with made werewolves and born werewolves very well. However they do often ally themselves
+    with a strong owner, one who has courage, bravery, and loyalty. This wand is an extremely loyal wand and will
+    cause many difficulties for anyone who tries to take the wand from their owner. It will often backfire on
+    someone who has stolen or won the wand, it does not cooperate well with others. Overall the werewolf cores all
+    do well with divinations and outdoorsy elements. Whiskers do well with Transfiguration.">Werewolf Whiskers</option>
+<option value=" There are several different cores that can come from a werewolf which include whiskers, hair, saliva, and nails.
+    All of these from a werewolf have their own virtues however they all make for an exceptional wand. Werewolf
+    cores ally themselves with made werewolves and born werewolves very well. However they do often ally themselves
+    with a strong owner, one who has courage, bravery, and loyalty. This wand is an extremely loyal wand and will
+    cause many difficulties for anyone who tries to take the wand from their owner. It will often backfire on
+    someone who has stolen or won the wand, it does not cooperate well with others. Overall the werewolf cores all
+    do well with divinations and outdoorsy elements. Hair does well with Charms.">Werewolf Hair</option>
+<option value=" There are several different cores that can come from a werewolf which include whiskers, hair, saliva, and nails.
+    All of these from a werewolf have their own virtues however they all make for an exceptional wand. Werewolf
+    cores ally themselves with made werewolves and born werewolves very well. However they do often ally themselves
+    with a strong owner, one who has courage, bravery, and loyalty. This wand is an extremely loyal wand and will
+    cause many difficulties for anyone who tries to take the wand from their owner. It will often backfire on
+    someone who has stolen or won the wand, it does not cooperate well with others. Overall the werewolf cores all
+    do well with divinations and outdoorsy elements. Saliva does well with Potions.">Werewolf Saliva</option>
+<option value=" There are several different cores that can come from a werewolf which include whiskers, hair, saliva, and nails.
+    All of these from a werewolf have their own virtues however they all make for an exceptional wand. Werewolf
+    cores ally themselves with made werewolves and born werewolves very well. However they do often ally themselves
+    with a strong owner, one who has courage, bravery, and loyalty. This wand is an extremely loyal wand and will
+    cause many difficulties for anyone who tries to take the wand from their owner. It will often backfire on
+    someone who has stolen or won the wand, it does not cooperate well with others. Overall the werewolf cores all
+    do well with divinations and outdoorsy elements. Nails do well with Hexes, Jinx’s and Curses.">Werewolf Nails
+</option>
+<option value=" A spine taken from the back of a White River Monster, a magical fish native to the White River in Arkansas, was
+    used as a wand core by the American wandmaker Thiago Quintana. Quintana's wands produced spells of force and
+    elegance. Quintana's harvesting of White River Monster spines initially raised concerns of over-fishing, but
+    because he was the only one who knew how to lure the creatures, the ecological impact was not severe. White
+    River Monster spines were no longer used as a wand core after Quintana's death, as he took the secret of luring
+    the creature to his grave.">White River Monster Spine</option>
+<option
+    value=" There are two specific mermaid cores that are used in current day wand making but are heirloom cores again, scales being the more frugal of the two. The
+    scales and hair from a mermaid are very strong magical conductors and often only given from family member to
+    family member. It is very rare that I see this core in the modern times as it isn’t often mermaid families
+    create new wands. This core is again very loyal to his wielder and very difficult to wield if taken or won.
+    Though this wand can be very temperamental as it only likes to be held by wielders who are very knowledgeable
+    but not greedy. If the wielder is neither than it is more likely that this wand will not be allied with them. If
+    a wand is allied with a wielder who is neither than it will take time before the wand is strong but when it
+    becomes close to its wielder than it will be very loyal, as well as strong. Overall the mermaid cores do well
+    with outdoorsy elements and care of magical creatures. Mermaid Scales do well with Transfiguration, and singers will love a wand with Mermaid’s Scale as it lends a beautiful melody to the voice when used for amplification spells, however this core can also make for a very vain wand. Do not compliment any other wands in its presence, or humans, or animals, or jewelry. In fact it’s best their owner hates everything, less they find themselves drowned in a puddle.">
+    Mermaid Scales</option>
+<option value=" There are two specific mermaid cores that are used in current day wand making but are heirloom cores again. The
+    scales and hair from a mermaid are very strong magical conductors and often only given from family member to
+    family member. It is very rare that I see this core in the modern times as it isn’t often mermaid families
+    create new wands. This core is again very loyal to his wielder and very difficult to wield if taken or won.
+    Though this wand can be very temperamental as it only likes to be held by wielders who are very knowledgeable
+    but not greedy. If the wielder is neither than it is more likely that this wand will not be allied with them. If
+    a wand is allied with a wielder who is neither than it will take time before the wand is strong but when it
+    becomes close to its wielder than it will be very loyal, as well as strong. Overall the mermaid cores do well
+    with outdoorsy elements and care of magical creatures. Mermaid Hair does well with Astronomy and Potions.">Mermaid
+    Hair</option>
+<option
+    value=" A frugal choice over other wands, a wand with a Niffler Quill is partial to Accio. In fact it will often cast this spell regardless of what it’s owner intended to cast and as a pleasant surprise one often finds interesting bits and doo-dads on their person. It is highly advised that the owner of such a wand store it in a nest of what the wand considers its’ horde when not in use, or the wand will find a way to end up in someone else’s pocket.">
+    Niffler Quill</option>
+<option
+    value=" A Troll Hair core may not lend much skill to advance spells, but it is great with offensive spells, especially if one is keen on having explosive results, and it is certainly a frugal choice over other wands. Careful where you point it though, it is not picky about what it smashes.">
+    Troll Hair</option>
+<option
+    value=" This core was originally harvested in hope of creating a lucky wand, but it turns out it creates a more mischievous wand, in fact one dare not pair it with Dogwood less they expect to be chasing after rainbows. Wands with a Leprechaun core are highly intelligent, have very little loyalty, and  enjoy aiding in a good prank. They're also fairly cheap, so breaking one won't completely empty your vault.">
+    Leprechaun Beard Hair</option>
+<option
+    value=" This wand core is great for sniping and will often fire small bolts of magic at anyone and everyone with little disregard for the owner. They don’t hurt, too bad, just a needle like sting. One dare might say it creates a trigger happy wand. For its low price, though, it's might be worth having a couple around.">
+    Pixie Eggs</option>
+  </select>
+
+  <select class="wandMaker" id="selectLength">
+        <option value="">Length</option>
+        <option value=" At 6 inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6"</option>
+<option value=" At 6¼ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6¼"</option>
+<option value=" At 6⅓ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6⅓"</option>
+<option value=" At 6½ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6½"</option>
+<option value=" At 6⅔ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6⅔"</option>
+<option value=" At 6¾ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">6¾"</option>
+<option value=" At 7 inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7"</option>
+<option value=" At 7¼ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7¼"</option>
+<option value=" At 7⅓ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7⅓"</option>
+<option value=" At 7½ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7½"</option>
+<option value=" At 7⅔ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7⅔"</option>
+<option value=" At 7¾ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">7¾"</option>
+<option value=" At 8 inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8"</option>
+<option value=" At 8¼ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8¼"</option>
+<option value=" At 8⅓ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8⅓"</option>
+<option value=" At 8½ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8½"</option>
+<option value=" At 8⅔ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8⅔"</option>
+<option value=" At 8¾ inches, your wand is abnormally short, possibly due to lacking something within your character or a need within your soul, ">8¾"</option>
+<option value=" At 9 inches, your wand is within the average length of most wands measured based on anthropometrics, ">9"</option>
+<option value=" At 9¼ inches, your wand is within the average length of most wands measured based on anthropometrics, ">9¼"</option>
+<option value=" At 9⅓ inches, your wand is within the average length of most wands measured based on anthropometrics, ">9⅓"</option>
+<option value=" At 9½ inches, your wand is within the average length of most wands measured based on anthropometrics, ">9½"</option>
+<option value=" At 9⅔ inches, your wand is within the average length of most wands measured based on anthropometrics, ">9⅔"</option>
+<option value=" At 9¾ inches, your wand is within the average length of most wands measured based on anthropometrics, ">9¾"</option>
+<option value=" At 10 inches, your wand is within the average length of most wands measured based on anthropometrics, ">10"</option>
+<option value=" At 10¼ inches, your wand is within the average length of most wands measured based on anthropometrics, ">10¼"</option>
+<option value=" At 10⅓ inches, your wand is within the average length of most wands measured based on anthropometrics, ">10⅓"</option>
+<option value=" At 10½ inches, your wand is within the average length of most wands measured based on anthropometrics, ">10½"</option>
+<option value=" At 10⅔ inches, your wand is within the average length of most wands measured based on anthropometrics, ">10⅔"</option>
+<option value=" At 10¾ inches, your wand is within the average length of most wands measured based on anthropometrics, ">10¾"</option>
+<option value=" At 11 inches, your wand is within the average length of most wands measured based on anthropometrics, ">11"</option>
+<option value=" At 11¼ inches, your wand is within the average length of most wands measured based on anthropometrics, ">11¼"</option>
+<option value=" At 11⅓ inches, your wand is within the average length of most wands measured based on anthropometrics, ">11⅓"</option>
+<option value=" At 11½ inches, your wand is within the average length of most wands measured based on anthropometrics, ">11½"</option>
+<option value=" At 11⅔ inches, your wand is within the average length of most wands measured based on anthropometrics, ">11⅔"</option>
+<option value=" At 11¾ inches, your wand is within the average length of most wands measured based on anthropometrics, ">11¾"</option>
+<option value=" At 12 inches, your wand is within the average length of most wands measured based on anthropometrics, ">12"</option>
+<option value=" At 12¼ inches, your wand is within the average length of most wands measured based on anthropometrics, ">12¼"</option>
+<option value=" At 12⅓ inches, your wand is within the average length of most wands measured based on anthropometrics, ">12⅓"</option>
+<option value=" At 12½ inches, your wand is within the average length of most wands measured based on anthropometrics, ">12½"</option>
+<option value=" At 12⅔ inches, your wand is within the average length of most wands measured based on anthropometrics, ">12⅔"</option>
+<option value=" At 12¾ inches, your wand is within the average length of most wands measured based on anthropometrics, ">12¾"</option>
+<option value=" At 13 inches, your wand is within the average length of most wands measured based on anthropometrics, ">13"</option>
+<option value=" At 13¼ inches, your wand is within the average length of most wands measured based on anthropometrics, ">13¼"</option>
+<option value=" At 13⅓ inches, your wand is within the average length of most wands measured based on anthropometrics, ">13⅓"</option>
+<option value=" At 13½ inches, your wand is within the average length of most wands measured based on anthropometrics, ">13½"</option>
+<option value=" At 13⅔ inches, your wand is within the average length of most wands measured based on anthropometrics, ">13⅔"</option>
+<option value=" At 13¾ inches, your wand is within the average length of most wands measured based on anthropometrics, ">13¾"</option>
+<option value=" At 14 inches, your wand is within the average length of most wands measured based on anthropometrics, ">14"</option>
+<option value=" At 14¼ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">14¼"</option>
+<option value=" At 14⅓ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">14⅓"</option>
+<option value=" At 14½ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">14½"</option>
+<option value=" At 14⅔ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">14⅔"</option>
+<option value=" At 14¾ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">14¾"</option>
+<option value=" At 15 inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15"</option>
+<option value=" At 15¼ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15¼"</option>
+<option value=" At 15⅓ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15⅓"</option>
+<option value=" At 15½ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15½"</option>
+<option value=" At 15⅔ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15⅔"</option>
+<option value=" At 15¾ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">15¾"</option>
+<option value=" At 16 inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16"</option>
+<option value=" At 16¼ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16¼"</option>
+<option value=" At 16⅓ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16⅓"</option>
+<option value=" At 16½ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16½"</option>
+<option value=" At 16⅔ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16⅔"</option>
+<option value=" At 16¾ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">16¾"</option>
+<option value=" At 17 inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17"</option>
+<option value=" At 17¼ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17¼"</option>
+<option value=" At 17⅓ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17⅓"</option>
+<option value=" At 17½ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17½"</option>
+<option value=" At 17⅔ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17⅔"</option>
+<option value=" At 17¾ inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">17¾"</option>
+<option value=" At 18 inches, your wand is above average in length and exceptionally rare, most likely because of a physical peculiarity that demands this size or due to a big personality, ">18"</option>
+    </select>
+
+    <select class="wandMaker" id="selectFlex">
+        <option value="">Flexibility</option>
+        <option value="and you'll find that your wand is surprisingly swishy. A wand with this flexibility will either surprise its owner by being surprisingly loyal or surprisingly unloyal and
+    is most often known for doing the unexpected. It is usually great for charm work. Owners that are matched with wands
+    of this flexibility are usually the type of people who have a hard time coming out of their shell or opening up, but
+    once they do, others will find themselves drawn to their charming, fun-loving personalities. The owner usually
+    adapts well to unexpected changes but may find it difficult to make hard decisions.">Surprisingly swishy</option>
+
+        <option value="and you'll find that your wand is Swishy. A wand with this flexibility may not be too loyal to its owner and may switch loyalties at a moment’s notice. It is
+    particularly good at charms. Owners that are matched with wands of this flexibility may be very sociable and
+    fun-loving with a penchant for some mischief-making. They are usually very clever and prefer not to tie themselves
+    down to any particular way of thinking until they’ve gathered all that they need to know.">Swishy</option>
+
+        <option value="and you'll find that your wand is Slightly springy. A wand with this flexibility may not appear to be very loyal at all because they will initially take to new owners
+    quite well, but the fact of the matter is that they will always have a special tie to their original owner. As time
+    goes on, this wand will become increasingly more troublesome for any owner that isn’t its original owner until
+    finally it stops working altogether. This wand is good for crafting spells. Owners matched with this wand may be
+    very cheerful and optimistic, but most of all, they have very big (and possibly overactive) imaginations. Their
+    thought patterns tend to be outside of the box.">Slightly springy</option>
+
+        <option value="and you'll find that your wand is Fairly bendy. A wand with this flexibility tends to be very loyal to its original owner; if it finds itself in a new owner’s hands,
+    it will make itself difficult to work with, but with time, it will eventually warm up to a new owner. This wand is
+    not exceptional at any particular branch of magic but is well-rounded enough that it will do well or average in
+    every area. Owners of a fairly bendy wand are well-liked but pride themselves on trying to stand out from the crowd.
+    Unfortunately, some of them may be quite susceptible to peer pressure, usually brought on by being in a group
+    considered “different” from others.">Fairly bendy</option>
+
+        <option value="and you'll find that your wand is Very flexible. A wand with this flexibility is happy in anyone’s hands, but this disadvantage is somewhat off-set by the fact that
+    this wand does exceptionally well in just about every area of magic. Owners of this wand flexibility come with a
+    very wide variety of personalities, but they do share a very high level of adaptability to just about any situation
+    and an easy-going nature.">Very flexible</option>
+
+        <option value="and you'll find that your wand is Quite flexible. A wand with this flexibility will pose little to no difficulty to whoever possesses it with the exception of owners
+    it considers restrictive and/or boring. It is particularly good for transfiguration, spell crafting, healing magic,
+    and curses. The owner of this wand is usually very likable as a result of being diplomatic and able to see all sides
+    of a situation. They may be very indecisive, but they do have a few principles on which they believe very strongly
+    in.">Quite flexible</option>
+
+        <option value="and you'll find that your wand is Supple. A wand with this flexibility needs a little time before it will warm up to its owner, but once it does, it will
+    become very loyal. Once it has become loyal to an owner, it will have difficulty performing for a new owner unless
+    that owner has a particularly dominating or forceful personality. It is particularly good for healing magic and any
+    magic needed for potions or domestic activities like cooking. Supple wand owners are usually gentle, warm, humble,
+    and kind-hearted. They may need to be careful about not burning themselves out in an attempt to please everyone.">
+            Supple</option>
+
+        <option value="and you'll find that your wand is Reasonably supple. A wand with this flexibility will take even more time than a supple wand before warming up to its owner, but it also
+    will become very loyal once it does. Unlike supple wands, however, it will have difficulty performing for any new
+    owner unless they prove their worthiness. Reasonably supple wands are usually well-rounded and perform average or
+    well in just about every area of magic except for curses and jinxes. Owners of wands with this flexibility are
+    patient and kind, but they have limits to this patience and kindness. They are not as likely to burn themselves out
+    in an attempt to please everyone, but it is still possible.">Reasonably supple</option>
+
+        <option value="and you'll find that your wand is Pliant. A wand with this flexibility will warm up easily to just about anyone; although, its full potential will not be
+    unlocked until its owner has reached his or her full potential as well. This wand’s talents will depend solely upon
+    the owner’s own talents, and its weaknesses will depend solely upon its owner’s weaknesses. Pliant wand owners are
+    eager, enthusiastic, and tend to be very easily impressed and/or naive. They often have a zest for life that is rare
+    and unrivaled in most populations.">Pliant</option>
+
+        <option value="and you'll find that your wand is Slightly yielding. A wand with this flexibility will initially resist new owners, but if the owner is persistent, it will warm up
+    eventually. It is particularly good for spells involving potion-making, animal-taming, and defensive magic,
+    although, it may have a little bit of difficulty with nonverbal magic. Wand owners with slightly yielding wands are
+    often very kind and compassionate, but they may have some reluctance in trusting others since they possess a strong
+    sense of skepticism. It usually takes a lot of strong arguing before the owner of this wand will believe claims that
+    don’t make any sense to them.">Slightly yielding</option>
+
+        <option value="and you'll find that your wand is Brittle. A wand with this flexibility tends to attach itself quickest to owners who have insecurities, and its level of
+    loyalty is often dependent on how loyal the owner is to it. Should it become very loyal to its original owner, new
+    owners often won’t get the chance to earn the wand’s loyalty before it breaks. Brittle wands are best suited to
+    subtle and delicate magic, such as transfiguration and non-verbal spell-casting. Because they break easy, their
+    owners should be careful to avoid magic that is unnecessarily flashy or explosive, especially if the wand also has a
+    dragon heartstring core. Owners with this wand flexibility are usually contemplative, clever, and somewhat cynical;
+    they tend to be an “underdog” type of person and perhaps even a little bit unlucky, which could lead them to
+    becoming resentful of their more successful peers. If a brittle wand owner perseveres and manages to get over their
+    insecurities, however, he or she will often become a “great success story” that never ceases to amaze and inspire
+    others.">Brittle</option>
+
+        <option value="and you'll find that your wand is Hard. A wand of this flexibility is very difficult to work with and its loyalty is not won easily. Hard wands are great for
+    complex and advanced levels of magic, so beginning wizards and witches may find extra difficulty with this wand when
+    it doesn’t perform well for simple magic. As such, this type of wand is best suited for wizards and witches who are
+    gifted, stubborn, and never give up. Owners of this wand also have a tendency to view things in absolutes; black or
+    white. Some people may find them intimidating or difficult to approach.">Hard</option>
+
+        <option value="and you'll find that your wand is Solid. A wand of this flexibility will become extremely loyal to one owner and one owner only, usually people of great moral
+    integrity. It is a wand that usually heavily specializes in only one area of magic of its owner’s choosing. Owners
+    of this wand are generally known for their reliability, their friendliness, and their character. They may find it
+    difficult to understand views that differ from their own but are usually able to politely disagree.">Solid</option>
+
+        <option value="and you'll find that your wand is Rigid. A wand of this flexibility will only give its complete loyalty to an owner who has faced great personal tragedy. It
+    is particularly good for practical magic use, and thus usually doesn’t perform well for magic that is frivolous or
+    silly. Rigid wand owners are cautious and have difficulty trusting others, but they are not usually unkind people.
+    Generally, they prefer to be left alone so that they can do what they want to do, regardless of what anyone else
+    says.">Rigid</option>
+
+        <option value="and you'll find that your wand is Unyielding. A wand of this flexibility finely tunes itself to its original owner’s preferences and doesn’t stray from those
+    preferences, even in the hands of a new owner; the new owner will just have to get used to it. It is particularly
+    good for combative and healing magic. Unyielding wand owners tend to be very confident in themselves and/or in the
+    things they believe in. They tend to be intelligent, somewhat cynical, and usually have well-defined principles that
+    they will not stray from ever. Sometimes, this combination can lead to arrogance because of them insisting on how
+    right they are without considering other points of view or whether or not they might be wrong.">Unyielding</option>
+    </select>
+</div>
+  
+  <button id="reset" type="button" name="reset">Reset</button>
+
+<button id="random" type="button" name="random">Random</button>
+  
+<div id="identify">
+    <span class="wood"></span>
+    <span class="core"></span>
+    <span class="length"></span>
+    <span class="flex"></span>
+  </div>
+
+  <div id="narrative">
+    <p id="wood"></p>
+    <p id="core"></p>
+    <p id="length"></p>
+    <p id="flex"></p>
+  </div>
